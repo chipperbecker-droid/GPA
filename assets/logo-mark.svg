@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Gary Penrod &amp; Associates</title>
+  <desc id="desc">GPA monogram</desc>
+  <rect width="64" height="64" rx="2" fill="#0d2a3a"/>
+  <path d="M13 15h38v4H17v26h34v4H13z" fill="#c5a15a"/>
+  <path d="M24 27h16v4H28v6h12v4H24z" fill="#fff"/>
+</svg>
