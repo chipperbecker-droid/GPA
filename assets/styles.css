@@ -21,7 +21,10 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -119,6 +122,11 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.65rem); }
 .specialization-panel p { color: #cfdbdf; }
 .check-list { margin: 2rem 0 0; padding: 0; list-style: none; }
 .check-list li { position: relative; padding: 1rem 0 1rem 2rem; border-top: 1px solid rgba(255,255,255,.15); }
+.specialization-panel .check-list li {
+  color: #e3eaed;
+  font-size: 1.02rem;
+  line-height: 1.55;
+}
 .check-list li::before { position: absolute; top: 1.52rem; left: .15rem; width: 8px; height: 8px; content: ''; background: var(--gold); }
 
 .credential-mark { display: grid; min-height: 450px; place-content: center; padding: 3rem; color: var(--white); background: var(--navy-900); border: 1px solid var(--navy-800); }
@@ -214,6 +222,7 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.65rem); }
 }
 
 @media (max-width: 720px) {
+  html { font-size: 16px; }
   .container { width: min(calc(100% - 30px), var(--max)); }
   .brand-sub { display: none; }
   .button-row { align-items: stretch; flex-direction: column; }
