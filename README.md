@@ -26,7 +26,7 @@ python3 -m http.server 4173
 
 Then open `http://localhost:4173`.
 
-Opening files directly with `file://` is not recommended because the site uses root-relative links.
+The pages now use portable relative asset and navigation paths, so `index.html` can also be opened directly for a quick visual preview. A local server is still recommended because it matches production routing more closely.
 
 ## Deploy
 
