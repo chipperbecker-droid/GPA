@@ -8,11 +8,12 @@ A responsive, dependency-free static website for Gary Penrod & Associates, Inc. 
 - `services/` — sell-side, buy-side, valuation, exit planning, and consulting services
 - `about/` — Gary Penrod background and credentials
 - `philosophy/` — advisory principles and confidentiality approach
-- `opportunities/` — confidential opportunity process and current status
+- `opportunities/` — confidential opportunity process, current status, and detailed historical 2021 listing
 - `testimonials/` — legacy public client comments, modernized into a testimonial grid
-- `insights/` — modernized legacy article and preserved archive topics
+- `insights/` — long-form legacy commentary plus working links to nine articles and ten newsletters
 - `contact/` — direct phone and email contact
-- `assets/` — shared stylesheet, minimal navigation script, and SVG mark
+- `assets/` — shared stylesheet, minimal navigation script, SVG mark, and original PDF resources
+- `CONTENT_AUDIT.md` — page-by-page preservation decisions and final comparison checklist
 - `GPA*.html` — legacy URL shims that forward old indexed pages to their modern equivalents
 - `sitemap.xml`, `robots.txt`, `404.html` — search and hosting support files
 
@@ -50,11 +51,11 @@ Upload the entire repository root to any static host, including GitHub Pages, Ne
 
 - Replace the opportunity status card only after GPA confirms which active assignments may be public and approves every displayed detail.
 - Reconfirm permission for the legacy public testimonials and attribution before launch. Their wording has been lightly shortened for the new card layout without changing the meaning.
-- Add legacy newsletter PDFs and article files only after the original documents are supplied and checked. Archive titles and dates are preserved without publishing broken links.
+- Reconfirm whether all legacy article and newsletter files should remain public long term. All nineteen original files are currently preserved and linked.
 - Confirm the primary phone number and whether a complete mailing address should appear.
 - Consider adding a social sharing image after brand artwork is approved. The site does not depend on one.
-- Confirm whether legacy biographies for Michelle Sullivan Bettez, Michael Nix, and Christi Rohmer remain current before republishing them.
+- Confirm whether the published biographies for Michelle Sullivan Bettez, Michael Nix, and Christi Rohmer remain current; their substantive public experience is preserved without time-sensitive employment claims.
 
 ## Before / after
 
-The previous site used dated static layouts, had a failing HTTPS configuration, and spread key information across older HTML pages. This rebuild introduces a cohesive premium design, responsive navigation, semantic page structure, keyboard focus states, readable typography, clearer conversion paths, unique metadata, structured data, a sitemap, and preserved legacy URLs. Copy has been reorganized around owner and buyer decisions while retaining the original firm history, services, philosophy, and industry-specific positioning.
+The previous site used dated static layouts, had a failing HTTPS configuration, and spread key information across older HTML pages and PDF archives. This rebuild introduces a cohesive premium design, responsive navigation, semantic page structure, keyboard focus states, readable typography, clearer conversion paths, unique metadata, structured data, a sitemap, and preserved legacy URLs. Detailed service explanations, credentials, philosophy, the historical opportunity, all public testimonials, nineteen original resources, and Gary Penrod's long-form sale commentary are retained in a more readable structure.
