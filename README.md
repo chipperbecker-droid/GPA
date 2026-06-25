@@ -4,19 +4,19 @@ A responsive, dependency-free static website for Gary Penrod & Associates, Inc. 
 
 ## Project structure
 
-- `index.html` — homepage
-- `services/` — sell-side, buy-side, valuation, exit planning, and consulting services
-- `about/` — firm background and credentials
-- `team/` — Associates page with Gary Penrod and associate photos and biographies
-- `philosophy/` — advisory principles and confidentiality approach
-- `opportunities/` — confidential opportunity process and current public status
-- `testimonials/` — public client comments in a testimonial grid
-- `insights/` — long-form commentary plus working links to nine articles and ten newsletters
-- `contact/` — direct phone, email, address, and directions contact
-- `assets/` — shared stylesheet, minimal navigation script, logo, headshots, and original PDF resources
-- `CONTENT_AUDIT.md` — page-by-page preservation decisions and final comparison checklist
-- `GPA*.html` — legacy URL shims that forward old indexed pages to their modern equivalents
-- `sitemap.xml`, `robots.txt`, `404.html` — search and hosting support files
+- `index.html` - homepage
+- `services/` - sell-side, buy-side, valuation, exit planning, and consulting services
+- `about/` - firm background and credentials
+- `team/` - Associates page with Gary Penrod and associate photos and biographies
+- `philosophy/` - advisory principles and confidentiality approach
+- `opportunities/` - confidential opportunity process and current public status
+- `testimonials/` - public client comments in a testimonial grid
+- `insights/` - long-form commentary plus working links to nine articles and ten newsletters
+- `contact/` - direct phone, email, address, and directions contact
+- `assets/` - shared stylesheet, minimal navigation script, logo, headshots, and original PDF resources
+- `CONTENT_AUDIT.md` - page-by-page preservation decisions and final comparison checklist
+- `GPA*.html` - legacy URL shims that forward old indexed pages to their modern equivalents
+- `sitemap.xml`, `robots.txt`, `404.html` - search and hosting support files
 
 ## Run locally
 
