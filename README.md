@@ -6,13 +6,15 @@ A responsive, dependency-free static website for Gary Penrod & Associates, Inc. 
 
 - `index.html` — homepage
 - `services/` — sell-side, buy-side, valuation, exit planning, and consulting services
-- `about/` — Gary Penrod background and credentials
+- `about/` — firm background and credentials
+- `gary-penrod/` — dedicated Gary Penrod profile with photo and bio
+- `team/` — associates page with photos and biographies
 - `philosophy/` — advisory principles and confidentiality approach
-- `opportunities/` — confidential opportunity process, current status, and detailed historical 2021 listing
-- `testimonials/` — legacy public client comments, modernized into a testimonial grid
-- `insights/` — long-form legacy commentary plus working links to nine articles and ten newsletters
-- `contact/` — direct phone and email contact
-- `assets/` — shared stylesheet, minimal navigation script, SVG mark, and original PDF resources
+- `opportunities/` — confidential opportunity process and current public status
+- `testimonials/` — public client comments in a testimonial grid
+- `insights/` — long-form commentary plus working links to nine articles and ten newsletters
+- `contact/` — direct phone, email, address, and directions contact
+- `assets/` — shared stylesheet, minimal navigation script, logo, headshots, and original PDF resources
 - `CONTENT_AUDIT.md` — page-by-page preservation decisions and final comparison checklist
 - `GPA*.html` — legacy URL shims that forward old indexed pages to their modern equivalents
 - `sitemap.xml`, `robots.txt`, `404.html` — search and hosting support files
@@ -43,7 +45,7 @@ Upload the entire repository root to any static host, including GitHub Pages, Ne
 - The legacy public site was reviewed through search-index copies and direct read-only archival requests because its live TLS certificate was invalid during the rebuild.
 - The phone number follows the supplied brief and the legacy opportunities page: `843-681-6588`. The older contact page showed different mobile and office numbers, so the preferred public number should still be confirmed before launch.
 - The email address follows the supplied brief and indexed site: `gary@garypenrod.com`.
-- Hilton Head Island, South Carolina is retained as the public business location. A street address is omitted because the brief did not confirm one.
+- The public address is listed as `200 Main St #201F, Hilton Head Island, SC 29926`.
 - No unverified deal counts, client names, awards, current opportunities, or current transaction values were added.
 - Claims about Gary Penrod's operator background, GPA's 1988 founding, publishing and speaking history, and former BSCAI leadership are based on the legacy pages.
 
@@ -52,10 +54,9 @@ Upload the entire repository root to any static host, including GitHub Pages, Ne
 - Replace the opportunity status card only after GPA confirms which active assignments may be public and approves every displayed detail.
 - Reconfirm permission for the legacy public testimonials and attribution before launch. Their wording has been lightly shortened for the new card layout without changing the meaning.
 - Reconfirm whether all legacy article and newsletter files should remain public long term. All nineteen original files are currently preserved and linked.
-- Confirm the primary phone number and whether a complete mailing address should appear.
-- Consider adding a social sharing image after brand artwork is approved. The site does not depend on one.
+- Confirm the primary phone number before launch if any older office/mobile numbers should also be shown.
 - Confirm whether the published biographies for Michelle Sullivan Bettez, Michael Nix, and Christi Rohmer remain current; their substantive public experience is preserved without time-sensitive employment claims.
 
 ## Before / after
 
-The previous site used dated static layouts, had a failing HTTPS configuration, and spread key information across older HTML pages and PDF archives. This rebuild introduces a cohesive premium design, responsive navigation, semantic page structure, keyboard focus states, readable typography, clearer conversion paths, unique metadata, structured data, a sitemap, and preserved legacy URLs. Detailed service explanations, credentials, philosophy, the historical opportunity, all public testimonials, nineteen original resources, and Gary Penrod's long-form sale commentary are retained in a more readable structure.
+The previous site used dated static layouts, had a failing HTTPS configuration, and spread key information across older HTML pages and PDF archives. This rebuild introduces a cohesive premium design, responsive navigation, semantic page structure, keyboard focus states, readable typography, clearer conversion paths, unique metadata, structured data, a sitemap, and legacy URL redirects. Detailed service explanations, credentials, philosophy, public testimonials, nineteen original resources, Gary Penrod's long-form sale commentary, and the supplied team biographies are retained in a more readable structure. The historical 2021 opportunity archive has been removed from the public website.

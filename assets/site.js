@@ -27,5 +27,15 @@ if (menuButton && siteNav) {
   });
 }
 
-const year = document.querySelector('[data-current-year]');
-if (year) year.textContent = String(new Date().getFullYear());
+const currentYear = new Date().getFullYear();
+
+document.querySelectorAll('[data-current-year]').forEach((year) => {
+  year.textContent = String(currentYear);
+});
+
+document.querySelectorAll('[data-years-since]').forEach((element) => {
+  const startYear = Number(element.getAttribute('data-years-since'));
+  if (Number.isFinite(startYear)) {
+    element.textContent = `${Math.max(0, currentYear - startYear)}+`;
+  }
+});

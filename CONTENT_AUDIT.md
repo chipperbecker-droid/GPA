@@ -181,31 +181,22 @@ Audit completed against the public legacy site on June 24, 2026. The live site w
 
 **Major sections found**
 
-- A 2021 Northeast janitorial services provider opportunity founded in 1998
-- Supermarket, retail, bank, and pharmacy customers
-- Cleaning, disinfection, and floor-care services
-- Recurring contracts, national customers, growth potential, and experienced management
-- Subcontract operating model and contractor-vetting process
-- Expected 2020 adjusted EBITDA of approximately $3 million
-- Incomplete cash-basis and multi-system financial records, corrective accounting work, and CIM timing
-- Owners' post-transaction intentions
-- Confidential-information memorandum and NDA process
+- A former public opportunity listing that has since been removed from the rebuilt website by owner direction
 - Qualified buyer criteria and recurring buyer interest by region
 - GPA's industry-exclusive intermediary positioning
 
 **Preserved / rewritten**
 
-- The complete opportunity substance is retained as a clearly marked historical 2021 archive, not an active listing.
 - Buyer qualification, confidentiality, and inquiry-process explanations remain current guidance.
 - The distinction between strategic and investor buyers is retained.
 
 **Removed or consolidated**
 
-- The old opportunity is not represented as currently available.
-- Time-sensitive controller and August 2021 completion estimates are retained only as historical context.
+- The former opportunity archive was removed from the public website by owner direction.
+- Time-sensitive listing details are not displayed.
 - An old associate email is not used as a current contact route.
 
-**New location:** `/opportunities/` under “Historical opportunity archive,” followed by the current confidential inquiry process.
+**New location:** `/opportunities/`, limited to the current confidential inquiry process and qualification guidance.
 
 ### `GPAContact.html`
 
