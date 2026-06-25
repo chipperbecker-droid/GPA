@@ -128,7 +128,9 @@ h1 + .lede, h2 + .lede, h2 + p, h3 + p { margin-top: 1rem; }
 
 .profile-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
 .profile-card { display: grid; grid-template-columns: 132px 1fr; gap: 1.5rem; padding: 1.8rem; background: var(--white); border: 1px solid var(--slate-200); }
+.profile-card-feature { grid-column: 1 / -1; grid-template-columns: 180px 1fr; }
 .profile-photo { width: 132px; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; background: var(--slate-200); border: 1px solid var(--slate-200); }
+.profile-card-feature .profile-photo { width: 180px; }
 .profile-card h3 { margin-top: .25rem; }
 .profile-card p { color: var(--slate-600); }
 .profile-card p:last-child { margin-bottom: 0; }
@@ -274,7 +276,7 @@ h1 + .lede, h2 + .lede, h2 + p, h3 + p { margin-top: 1rem; }
   .card-number { margin-bottom: 2rem; }
   .opportunity-card { grid-template-columns: 1fr; gap: 1rem; }
   .article-card { grid-template-columns: 1fr; gap: 1rem; }
-  .profile-card, .profile-feature { grid-template-columns: 1fr; }
+  .profile-card, .profile-card-feature, .profile-feature { grid-template-columns: 1fr; }
   .profile-card .profile-photo, .profile-feature .profile-photo { width: 150px; }
   .resource-list a { align-items: flex-start; flex-direction: column; gap: .9rem; }
   .contact-panel { grid-template-columns: 1fr; }

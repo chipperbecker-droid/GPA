@@ -7,8 +7,7 @@ A responsive, dependency-free static website for Gary Penrod & Associates, Inc. 
 - `index.html` — homepage
 - `services/` — sell-side, buy-side, valuation, exit planning, and consulting services
 - `about/` — firm background and credentials
-- `gary-penrod/` — dedicated Gary Penrod profile with photo and bio
-- `team/` — associates page with photos and biographies
+- `team/` — Associates page with Gary Penrod and associate photos and biographies
 - `philosophy/` — advisory principles and confidentiality approach
 - `opportunities/` — confidential opportunity process and current public status
 - `testimonials/` — public client comments in a testimonial grid
@@ -59,4 +58,4 @@ Upload the entire repository root to any static host, including GitHub Pages, Ne
 
 ## Before / after
 
-The previous site used dated static layouts, had a failing HTTPS configuration, and spread key information across older HTML pages and PDF archives. This rebuild introduces a cohesive premium design, responsive navigation, semantic page structure, keyboard focus states, readable typography, clearer conversion paths, unique metadata, structured data, a sitemap, and legacy URL redirects. Detailed service explanations, credentials, philosophy, public testimonials, nineteen original resources, Gary Penrod's long-form sale commentary, and the supplied team biographies are retained in a more readable structure. The historical 2021 opportunity archive has been removed from the public website.
+The previous site used dated static layouts, had a failing HTTPS configuration, and spread key information across older HTML pages and PDF archives. This rebuild introduces a cohesive premium design, responsive navigation, semantic page structure, keyboard focus states, readable typography, clearer conversion paths, unique metadata, structured data, a sitemap, and legacy URL redirects. Detailed service explanations, credentials, philosophy, public testimonials, nineteen original resources, Gary Penrod's long-form sale commentary, and the supplied associate biographies are retained in a more readable structure. The historical 2021 opportunity archive has been removed from the public website.
