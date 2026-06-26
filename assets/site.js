@@ -59,7 +59,6 @@ document.querySelectorAll('.testimonial-carousel').forEach((carousel) => {
   let maxCard = 0;
   let offset = 0;
   let rotation;
-  let autoplayDirection = 1;
   let wheelTimer;
   let pointerId;
   let dragStartX = 0;
@@ -106,6 +105,12 @@ document.querySelectorAll('.testimonial-carousel').forEach((carousel) => {
     renderOffset(activeCard * getCardStep(), animate);
   };
 
+  const goToLoopedCard = (index, animate = true) => {
+    if (index > maxCard) goToCard(0, animate);
+    else if (index < 0) goToCard(maxCard, animate);
+    else goToCard(index, animate);
+  };
+
   const showPage = (index) => {
     goToCard(index * cardsPerPage);
   };
@@ -118,9 +123,7 @@ document.querySelectorAll('.testimonial-carousel').forEach((carousel) => {
     if (reduceMotion) return;
     window.clearInterval(rotation);
     rotation = window.setInterval(() => {
-      if (activeCard >= maxCard) autoplayDirection = -1;
-      if (activeCard <= 0) autoplayDirection = 1;
-      goToCard(activeCard + autoplayDirection * cardsPerPage);
+      goToLoopedCard(activeCard + cardsPerPage);
     }, 7000);
   };
 
@@ -173,11 +176,11 @@ document.querySelectorAll('.testimonial-carousel').forEach((carousel) => {
   };
 
   previous.addEventListener('click', () => {
-    goToCard(activeCard - 1);
+    goToLoopedCard(activeCard - 1);
     startRotation();
   });
   next.addEventListener('click', () => {
-    goToCard(activeCard + 1);
+    goToLoopedCard(activeCard + 1);
     startRotation();
   });
   carousel.addEventListener('mouseenter', () => window.clearInterval(rotation));
@@ -219,6 +222,7 @@ document.querySelectorAll('.testimonial-carousel').forEach((carousel) => {
   viewport.addEventListener('wheel', (event) => {
     if (Math.abs(event.deltaX) <= Math.abs(event.deltaY)) return;
     event.preventDefault();
+    event.stopPropagation();
     window.clearInterval(rotation);
     renderOffset(offset + event.deltaX, false);
     window.clearTimeout(wheelTimer);
