@@ -36,7 +36,7 @@ Audit completed against the public legacy site on June 24, 2026. The live site w
 - Repetitive statements about being active in M&A since 1988 are consolidated into the hero and credentials sections.
 - The generic claim of being a “leading factor” is replaced with factual history and specific experience.
 
-**New location:** Home page plus links to Services, About, Philosophy, Opportunities, Testimonials, and Insights.
+**New location:** Home page plus links to Services, About, Philosophy, Testimonials, and Insights.
 
 ### `GPAServices.html`
 
@@ -174,29 +174,6 @@ Audit completed against the public legacy site on June 24, 2026. The live site w
 **Removed or consolidated:** None of the nine published comments are removed.
 
 **New location:** `/testimonials/`, with three representative comments also appearing on the home page.
-
-### `GPAOfferings.html`
-
-**Legacy URL:** `https://www.garypenrodandassociates.com/GPAOfferings.html`
-
-**Major sections found**
-
-- A former public opportunity listing that has since been removed from the rebuilt website by owner direction
-- Qualified buyer criteria and recurring buyer interest by region
-- GPA's industry-exclusive intermediary positioning
-
-**Preserved / rewritten**
-
-- Buyer qualification, confidentiality, and inquiry-process explanations remain current guidance.
-- The distinction between strategic and investor buyers is retained.
-
-**Removed or consolidated**
-
-- The former opportunity archive was removed from the public website by owner direction.
-- Time-sensitive listing details are not displayed.
-- An old associate email is not used as a current contact route.
-
-**New location:** `/opportunities/`, limited to the current confidential inquiry process and qualification guidance.
 
 ### `GPAContact.html`
 
