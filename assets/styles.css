@@ -179,7 +179,7 @@ h1 + .lede, h2 + .lede, h2 + p, h3 + p { margin-top: 1rem; }
 .testimonial-track.is-dragging { transition: none; }
 .testimonial-card { display: flex; flex: 0 0 calc((100% - 2rem) / 3); min-height: 315px; flex-direction: column; justify-content: space-between; margin: 0; padding: 2rem; background: var(--white); border: 1px solid var(--slate-200); box-shadow: 0 10px 30px rgba(7,28,39,.06); }
 .testimonial-card blockquote { margin: 0; color: var(--navy-900); font-family: var(--serif); font-size: 1.22rem; line-height: 1.5; }
-.testimonial-card figcaption { margin-top: 1.5rem; color: var(--slate-600); font-size: .76rem; font-weight: 850; letter-spacing: .08em; line-height: 1.5; text-transform: uppercase; }
+.testimonial-card figcaption { margin-top: 1.5rem; color: var(--slate-600); font-size: .76rem; font-weight: 850; letter-spacing: .04em; line-height: 1.5; }
 .testimonial-controls, .testimonial-dots { display: flex; align-items: center; justify-content: center; }
 .testimonial-controls { gap: .85rem; margin-top: 1.25rem; }
 .testimonial-dots { gap: .55rem; }
@@ -220,7 +220,7 @@ h1 + .lede, h2 + .lede, h2 + p, h3 + p { margin-top: 1rem; }
 .quote-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
 .quote-card { display: flex; min-height: 300px; flex-direction: column; padding: 2.2rem; background: var(--white); border: 1px solid var(--slate-200); }
 .quote-card blockquote { margin: 0; color: var(--navy-900); font-family: var(--serif); font-size: 1.32rem; line-height: 1.5; }
-.quote-card cite { margin-top: auto; padding-top: 2rem; color: var(--slate-600); font-size: .78rem; font-style: normal; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.quote-card cite { margin-top: auto; padding-top: 2rem; color: var(--slate-600); font-size: .78rem; font-style: normal; font-weight: 800; letter-spacing: .04em; }
 .quote-card.pending { justify-content: center; color: var(--slate-600); background: transparent; border-style: dashed; }
 
 .opportunity-card { display: grid; grid-template-columns: 1fr 1.8fr auto; gap: 2.5rem; align-items: center; padding: 2rem 0; border-top: 1px solid var(--slate-300); }
